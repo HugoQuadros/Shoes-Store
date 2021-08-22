@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    /* background: #e5e5e5; */
+}
+
+.container{
+    width: 100%;
+}
+
+
+/* ---HEADER--- */
+
+header .container{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+header .container a{
+    text-decoration: none;
+    padding: 10px;
+    color: #777;
+    font-weight: 600;
+    font-size: 24px
+}
+
+header section.container .logo img{
+    max-width: 100%;
+}
+
+
+/* -----PAGINA INDEX----- */
+
+
+.index section.conteudo .container article.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.index section.conteudo .container article.destaque1 h1{
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+}
+
+.index section.conteudo .container article.destaque1 .fotos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    /* max-height: 100%; */
+}
+
+.index section.conteudo .container article.destaque1 .fotos img{
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.index section.conteudo .container article.destaque1 .fotos .imagem1{
+    width: 350px;
+    max-width: 100%;
+}
+
+.index section.conteudo .container article.destaque1 .fotos .imagem2{
+    width: 480px;
+    max-width: 100%;
+}
+
+.index section.conteudo .container article.miniatura{
+    background-color: #C2185B;
+    margin: 100px 0 0;
+}
+
+.index section.conteudo .container article.miniatura h2{
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 44px;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.index section.conteudo .container article.miniatura .espaco{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 40px 70px;
+}
+
+.index section.conteudo .container article.miniatura .espaco .mini1,
+.index section.conteudo .container article.miniatura .espaco .mini2,
+.index section.conteudo .container article.miniatura .espaco .mini3,
+.index section.conteudo .container article.miniatura .espaco .mini4{
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    padding: 0 0 20px;
+    margin-top: 15px;
+}
+
+.index section.conteudo .container article.miniatura .espaco img{
+    max-width: 100%;
+}
+
+.index section.conteudo .container article.miniatura .espaco .titulo,
+.index section.conteudo .container article.miniatura .espaco .descricao{
+    padding: 10px 0 0 10px;
+}
+
+.index section.conteudo .container article.miniatura .espaco .titulo{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.index section.conteudo .container article.miniatura .espaco .descricao{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.index section.conteudo .container article.destaque2 .lado{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 80px 20px;
+    /* float: left; */
+    position: relative;
+}
+
+.index section.conteudo .container article.destaque2 .lado img{
+    width: auto;
+    max-width: 95%;
+}
+
+.index section.conteudo .container article.destaque2 .lado .esquerda{
+    height: 939px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20px;
+    /* padding-bottom: 15px; */
+    max-width: 100%;
+}
+
+.index section.conteudo .container article.destaque2 .lado .esquerda button{
+    height: 100px;
+    width: 400px;
+    max-width: 100%;
+    padding: 0;
+    background-color: #C2185B;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 39px;
+}
+
+
+.index section.conteudo .container article.destaque2 .lado .esquerda h3{
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0 0 20px;
+}
+
+.index section.conteudo .container article.destaque2 .lado .esquerda img{
+    margin: 0 20px;
+}
+
+.index section.conteudo .container article.destaque2 .lado .direita{
+    margin: 0 20px;
+}
+
+
+/* -----PAGINA TRABALHE----- */
+
+.trabalhe section.conteudo{
+    margin: 30px 50px;
+}
+
+.trabalhe section.conteudo h1{
+    font-weight: 600;
+    font-size: 39px;
+    color: #575757;
+}
+
+.trabalhe section.conteudo .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    max-height: 100%;
+    flex-wrap: wrap;
+}
+
+.trabalhe section.conteudo .container article.form{
+    margin-right: 20px;
+    width: auto;
+    color: #9B9B9B;
+    max-width: 550px;
+    padding-bottom: 30px;
+}
+
+.trabalhe section.conteudo .container article.texto{
+    margin-left: 20px;
+    text-align: justify;;
+    width: auto;
+    color: #575757;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 450px;
+}
+
+.trabalhe section.conteudo .container article.texto p{
+    margin-top: 0;
+}
+
+.trabalhe section.conteudo .container article.form label{
+    margin-top: 5px;
+}
+
+.trabalhe section.conteudo .container article.form textarea{
+    width: 100%;
+}
+
+.trabalhe section.conteudo .container article.form input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.trabalhe section.conteudo .container article.form p{
+    /* margin-bottom: 6px; */
+    margin: 0;
+}
+
+.trabalhe section.conteudo .container article.form .departamentos select{
+    width: 100%;
+}
+
+.trabalhe section.conteudo .container article.form .disponibilidade input,
+.trabalhe section.conteudo .container article.form .contato input{
+    width: auto;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.trabalhe section.conteudo .container article.form .disponibilidade label,
+.trabalhe section.conteudo .container article.form .contato label{
+    color: #777
+}
+
+.trabalhe section.conteudo .container article.form .curriculo{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    margin-top: 20px;
+}
+
+.trabalhe section.conteudo .container article.form .curriculo p{
+    margin-right: 15px;
+}
+
+#upload{
+    width: 118px;
+    background-color: #C4C4C4;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    /* cursor: pointer; */
+}
+
+.trabalhe section.conteudo .container article.form .curriculo button{
+    width: 118px;
+    background-color: #C4C4C4;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.trabalhe section.conteudo .container article.form button{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #C2185B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* -----FOOTER----- */
+
+footer{
+    background-color: #C2185B;
+    color: #fff;
+}
+
+footer .container{
+    /* margin: 20px 30px; */
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+
+footer .container section.logo .descricao{
+    /* width: 250px; */
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+footer .container section.logo p{
+    margin: 0;
+}
+
+footer .container section.paginas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .container section.paginas ul{
+    padding: 0 5px;
+}
+
+footer .container section.paginas ul li{
+    padding: 2px;
+}
+
+footer .container section.paginas ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#cat, #inst{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* -----MEDIA QUERIES----- */
+
+@media (max-width: 280px){
+    .index section.conteudo .container article.destaque1 h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 250px){
+    
+
+    .index section.conteudo .container article.destaque2 .lado .esquerda h3{
+        font-size: 20px;
+    }
+
+    footer .container .logo img{
+        width: 150px;
+    }
+
+    footer .container .logo .descricao{
+        width: 150px;
+    }
+
+    /* footer .container section.logo .descricao p{
+        font-size: 10px;
+    } */
+    
+}
